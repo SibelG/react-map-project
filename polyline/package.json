@@ -1,0 +1,31 @@
+{
+    "name": "polyline",
+    "version": "1.0.0",
+    "description": "Example how to add polylines to map using google-map-react",
+    "main": "src/index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@material-ui/core": "^4.11.3",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.6.0",
+        "google-map-react": "^0.24.0",
+        "json-parse": "^1.0.3",
+        "material-ui": "^0.20.2",
+        "material-ui-table": "^0.1.2",
+        "moment": "^2.29.1",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-google-maps": "^9.4.5",
+        "react-router-dom": "^5.2.0",
+        "recompose": "^0.30.0"
+    },
+    "devDependencies": {
+        "react-scripts": "^1.0.13",
+        "standard": "^10.0.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build"
+    },
+    "proxy": "http://localhost:5000"
+}
